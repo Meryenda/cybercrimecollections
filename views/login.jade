@@ -1,0 +1,30 @@
+extends layout
+
+block content
+    div.dark
+        div.container
+            header.row
+                div.twelve.columns
+                    //- h5 CYBER CRIME COLLECTIONS
+                    h5 title here
+    div.content
+        div.container
+            div.row
+                div.six.columns
+                    h4
+                        i meryenda (n)
+                    p afternoon snack, tea
+                    p While merienda is almost never referred to as such, the Spanish custom of the early evening pick-me-up is still alive and well, and may take the form of tea time or cocktail hour, depending on the mood and social circumstance.
+                div.six.columns
+                    dialog#loader
+                        div.pulse-loader
+                    form#login
+                        h5 Login
+                        span.error
+                        label(for='userName') Username
+                        input(type='text', placeholder='Your Username Here', required)#userName.u-full-width
+                        label(for='passWord') Password
+                        input(type='password', placeholder='Your Password Here', required)#passWord.u-full-width
+                        input(type='submit', value='submit').button-primary
+                        
+    script(src='/javascripts/login.js')

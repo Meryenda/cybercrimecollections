@@ -1,0 +1,53 @@
+p, span, label {
+    size: 10px;
+    text-align: justify;
+}
+
+.dark {
+    background: rgb(56, 56, 56);
+    color: rgb(240, 240, 240);
+}
+
+header {
+    padding-top: 12px;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.content p {
+    size: 8px;
+}
+
+.loader {
+    text-align: center;
+}
+
+dialog {
+    border: 0;
+    background: rgba(0, 0, 0, 0);
+}
+/* Utility Classes */
+
+/* Make element full width */
+.u-full-width {
+  width: 100%;
+  box-sizing: border-box; }
+
+/* Make sure elements don't run outside containers (great for images in columns) */
+.u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box; }
+
+/* Float either direction */
+.u-pull-right {
+  float: right; }
+.u-pull-left {
+  float: left; }
+
+/* Clear a float */
+.u-cf {
+  content: "";
+  display: table;
+  clear: both; }
